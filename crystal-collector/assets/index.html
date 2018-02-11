@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Crystal Collector Game</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+	<header>
+		<h1>Crystals Collector!</h1>
+	</header>
+		<div class="container">
+	<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 text-center" style="background-color:blue;"><div class="computerRandom">
+		<p id="computer-random"></p>
+    </div>
+    </div>
+    <div class="col-sm-6 text-center" style="background-color:green;"><div class="playerRandom">
+		<p id="player-random"></p>
+	</div>
+</div>
+	</div>
+		</div>
+
+		<div class="container-fluid">
+
+    <!-- Insert Images here -->
+    	<div class="image-container">
+   		 	<img src="assets/images/crystal-1.png" class="img-thumbnail h" id="crystal-1" alt="Crystal-1" width="100" height="">
+    		<img src="assets/images/crystal-2.png" class="img-thumbnail h" alt="Crystal-2" id="crystal-2"width="100" height="">
+    		<img src="assets/images/crystal-3.png" class="img-thumbnail h" alt="Crystal-3" id="crystal-3"width="100" height="">
+    		<img src="assets/images/crystal-4.png" class="img-thumbnail h" alt="Crystal-4" id="crystal-4"width="100" height="">
+    	</div>
+	</div>
+</div>
+
+		<div class="container-fluid">
+        <div class="row">
+        <div class="col-sm-12" style="background-color:lavender;" id="win-lost"></div>
+    
+<!-- Wins/Losses here -->
+
+        <div class="col-sm-6" style="background-color:lavender;" id="wins">Wins:</div>
+        <div class="col-sm-6" style="background-color:lavenderblush;" id="losses">Losses:</div>
+
+        </div>
+    </div>
+	</div>
+    </div>
+</div>
+
+<body>
+
+
+<script src="assets/javascript/game.js">
+</script>
+</body>
+</html>

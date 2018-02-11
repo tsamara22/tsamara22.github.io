@@ -1,0 +1,43 @@
+.container {
+	margin: 10px;
+}
+
+header {
+	background-color: orange;
+
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+#computer-random {
+	color: white;
+	height: 200px;
+	border: 10px;
+	line-height: 200px;
+	font-size: 80px
+}
+#player-random {
+	color: white;
+	height: 200px;
+	border: 10px;
+	line-height: 200px;
+	font-size: 80px
+}
+
+#win-lost {
+	text-align: center;
+}
+#wins {
+	text-align: center;
+}
+#losses {
+	text-align: center;
+}
+.image-container {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
